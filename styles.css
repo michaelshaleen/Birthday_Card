@@ -64,3 +64,18 @@ h1::after {
 .card-links a:visited {
   color: crimson;
 }
+section {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  display: none;
+}
+section:target{
+  display: block;
+}
+
+section:hover{
+  transform: skewX(10deg);
+}
