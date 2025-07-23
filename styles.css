@@ -13,3 +13,23 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 8px gray;
 }
+
+
+.card:hover {
+  background-color: khaki;
+  transform: scale(1.1);
+}
+
+h1::before {
+  content: "🥳 ";
+}
+
+h1::after {
+  content: " 🥳";
+}
+
+.message {
+  font-size: 1.2em;
+  color: gray;
+  margin-bottom: 20px;
+}
